@@ -7,7 +7,7 @@
 /* Global */ 
 body{
     font-family: "Merriweather", sans-serif;
-    background-color: #ebf2ff;
+    background-color: #dee6f5;
     overflow-x: hidden;
 
 }
@@ -72,13 +72,37 @@ padding: 0 15px;
 
 /* Menu styles */
 
+.explore__menu__container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.explore__menu__text {
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0;
+}
+
 .food__menu__card {
     width: 100%;
+    background-color: #fff; 
+    border-radius: 8px;
+    margin-bottom: 12px;
 
 }
 
 .food__image {
     width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.food__menu__card__discription {
+    padding: 20px;
+}
+
+.explore__menu__view__more {
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 768px) {
